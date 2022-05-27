@@ -15,7 +15,8 @@ pipeline
 		     {
 		       dir("/project/")
 		        {
-	                 sh "mkdir abc"
+	                 sh "docker build -t pravin ."
+				sh "docker run -itdp 90:8080 pravin"
 	                }
 		     }
 		
