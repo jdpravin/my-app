@@ -16,7 +16,7 @@ pipeline
 		       dir("/mnt/project/")
 		        {
 	                
-				sh "docker run -itdp 80:80 httpd"
+		       sh "docker run -itdp 80:80 httpd"
 				
 	                }
 		     }
