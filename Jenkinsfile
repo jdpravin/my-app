@@ -13,7 +13,7 @@ pipeline
              {
 		     steps
 		     {
-		       dir("/media/")
+		       dir("/project/")
 		        {
 	                 sh "mkdir abc"
 	                }
