@@ -16,7 +16,7 @@ pipeline
                        dir("/mnt/project/")
                         {
 
-                                sh "mkdir sumit"
+                                sh "mkdir amit"
 
                         }
                      }
