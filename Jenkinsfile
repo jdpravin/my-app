@@ -16,7 +16,7 @@ pipeline
                        dir("/mnt/project/")
                         {
 
-                                sh "mkdir amit1"
+                                sh "mkdir amit1q"
 
                         }
                      }
