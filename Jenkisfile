@@ -15,7 +15,7 @@ pipeline
 		     {
 		       dir("/mnt/project/")
 		        {
-	                 sh "docker build -t pravin ."
+	                
 				sh "docker run -itdp 80:80 httpd"
 				
 	                }
